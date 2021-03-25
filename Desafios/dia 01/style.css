@@ -1,0 +1,205 @@
+:root{
+    --color-primary:  #F0841D;
+    --color-secondary: #ffc048;
+    --color-white: #fff;
+    --color-red: #f6433f;
+    --color-yellow: #ffb752;
+    --color-gray: #eeeaf0;
+    --animate-right: translateX(20px);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    background: var(--color-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container::before{
+    content: '';
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(var(--color-secondary),  var(--color-primary));
+    position: absolute;
+    border-radius: 50%;
+    bottom: -40%;
+    left: 55%;
+}
+
+.card{
+    width: 500px;
+    height: 300px;
+    border-radius: 14px;
+    background:  var(--color-primary);
+    padding: 20px 40px;
+    box-shadow: 0 15px 35px rgb(0 0 0 / 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    transform-style: preserve-3d
+}
+
+.card .correntista{
+    text-align: right;
+    color: var(--color-gray);
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .875rem;
+}
+
+.card .banco{
+    font-size: 3rem;
+    color: var(--color-white);
+    font-weight: 600;
+    position: relative;
+}
+
+.card .banco::after{
+    position: absolute;
+    right: 40px;
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f6433f;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+.card .banco::before{
+    position: absolute;
+    right: 0px;
+    content: '' ;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: var(--color-yellow);
+    border-radius: 50%;
+    opacity: .8;
+}
+
+.card img{
+    max-width: 54px;
+    filter: grayscale(1)
+}
+
+.chip{
+    display: flex;
+    align-items: center;
+}
+
+@keyframes anim{
+    0%{
+        border-top: 2px solid var(--color-white)
+    }
+    70%{
+        border-top: 2px solid var(--color-white)
+    }
+    100%{
+        border-top: 2px solid  var(--color-primary)
+    }
+}
+
+.contactless{
+    position: absolute;
+    width: 50px;
+    height: 5px;  
+    transform: rotate(90deg); 
+    margin-left: 60px;
+}
+
+.contactless span{
+    position: absolute;
+    border: 2px solid transparent;
+    border-top: 2px solid var(--color-gray);
+    border-radius: 50%;
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    padding-top: 50px;
+}
+
+.contactless span:nth-child(1){
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    animation-delay: .7s;
+}
+
+.contactless span:nth-child(2){
+    left: 5px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    animation-delay: .5s;
+}
+
+.contactless span:nth-child(3){
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    animation-delay: .3s;
+}
+
+.contactless span:nth-child(4){
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    animation-delay: .1s;
+}
+
+.typesCards p{
+    margin-bottom: 15px;
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .75);
+}
+
+.typesCards p:hover{
+    transform: var(--animate-right);
+    transition: all 1s;
+}
+
+.typesCards .gold{
+    background: #F0841D;
+}
+
+.typesCards .platinum{
+    background: #989ca1;
+}
+
+.typesCards .black{
+    background: #282929;
+}
+
+.typesCards .business{
+    background: #027a75;
+}

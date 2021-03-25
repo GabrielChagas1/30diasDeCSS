@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;500;600;700&display=swap" rel="stylesheet">
+    <title>Banco Inter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="typesCards">
+            <p onclick="orangeColor()" class="gold">Gold</p>
+            <p onclick="platinumColor()" class="platinum">Platinum</p>
+            <p onclick="blackColor()" class="black">Black</p>
+            <p onclick="businessColor()" class="business">Business</p>
+        </div>
+        <div class="card" data-tilt>
+            <p class="correntista">Gabriel S Chagas</p>
+            <div class="chip">
+                <img src="./assets/chip.png" alt="Chip">
+                <div class="contactless">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <p class="banco">inter</p>
+        </div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+</body>
+
+</html>
