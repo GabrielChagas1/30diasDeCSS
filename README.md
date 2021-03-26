@@ -73,7 +73,7 @@
 * *Opacidade/transparência*
 * *Var*
 
-##  Desafio dia 02 - 02 - Card Responsivo Hover <a name="id01"></a>
+##  Desafio dia 02 - 02 - Card Responsivo Hover <a name="id02"></a>
 ![Dia 01](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2002/assets/gif.gif)
 
 ## :computer: Projeto Online
