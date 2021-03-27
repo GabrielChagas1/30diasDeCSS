@@ -26,7 +26,7 @@
 
 * [Dia 01 - Criando layout dos cartões Banco Inter](#id01)
 * [Dia 02 - Card Responsivo Hover](#id02)
-* [Dia 03 - Calculador Glassmorphism Effects](#id03)
+* [Dia 03 - Calculadora Glassmorphism Effects](#id03)
 <!--** [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito pulsar](#id05)
 * [Dia 06 - Efeito lightning text](#id06)
@@ -90,7 +90,7 @@
 * *Opacidade/transparência*
 * *Var*
 
-##  Desafio dia 03 - Calculador Glassmorphism Effects <a name="id03"></a>
+##  Desafio dia 03 - Calculadora Glassmorphism Effects <a name="id03"></a>
 ![Dia 01](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2003/assets/gif.gif)
 
 ## :computer: Projeto Online
