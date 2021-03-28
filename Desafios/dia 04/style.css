@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #16384c;
+}
+
+.container{
+  position: relative;
+  width: 1100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+.container .card{
+  position: relative;
+  max-width: 300px;
+  height: 160px;
+  background: #fff;
+  margin: 20px 30px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+  transition: .3s ease-in-out;
+}
+
+.container .card:hover{
+  height: 350px;
+}
+
+.container .card .imgBox{
+  position: relative;
+  width: 260px;
+  height: 173px;
+  top: -60px;
+  left: 5px;
+  z-index: 1;
+}
+
+.container .card .imgBox img{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+  max-width: 100%;
+  border-radius: 4px;
+
+}
+
+.container .card .content{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+.container .card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: .3s;
+}
