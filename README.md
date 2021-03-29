@@ -28,8 +28,8 @@
 * [Dia 02 - Card Responsivo Hover](#id02)
 * [Dia 03 - Calculadora Glassmorphism Effects](#id03)
 * [Dia 04 - Botão com efeito](#id04)
-<!--* [Dia 05 - Efeito pulsar](#id05)
-* [Dia 06 - Efeito lightning text](#id06)
+* [Dia 05 - Efeito Wavy Circle](#id05)
+<!--* [Dia 06 - Efeito lightning text](#id06)
 * [Dia 07 - Preloader animado](#id07)  
 * [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
@@ -74,7 +74,7 @@
 * *Var*
 
 ##  Desafio dia 02 - Card Responsivo Hover <a name="id02"></a>
-![Dia 01](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2002/assets/gif.gif)
+![Dia 02](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2002/assets/gif.gif)
 
 ## :computer: Projeto Online
 
@@ -91,7 +91,7 @@
 * *Var*
 
 ##  Desafio dia 03 - Calculadora Glassmorphism Effects <a name="id03"></a>
-![Dia 01](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2003/assets/gif.gif)
+![Dia 03](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2003/assets/gif.gif)
 
 ## :computer: Projeto Online
 
@@ -111,8 +111,8 @@
 * *Tilt JS*
 * *Grid CSS*
 
-##  Desafio dia 04 - Card Responsivo Hover Effects <a name="id02"></a>
-![Dia 01](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2004/assets/gif.gif)
+##  Desafio dia 04 - Card Responsivo Hover Effects <a name="id04"></a>
+![Dia 04](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2004/assets/gif.gif)
 
 ## :computer: Projeto Online
 
@@ -126,3 +126,17 @@
 * *Transições*
 * *Opacidade/transparência*
 * *Flexbox*
+
+##  Desafio dia 05 - Efeito Wavy Circle <a name="id05"></a>
+![Dia 05](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2005/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2005)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2005/index.html)
+
+##### O que eu aprendi
+
+* *Transições*
+* *Animações*
