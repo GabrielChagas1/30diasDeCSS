@@ -30,8 +30,8 @@
 * [Dia 04 - Botão com efeito](#id04)
 * [Dia 05 - Efeito Wavy Circle](#id05)
 * [Dia 06 - Botão Hover Effects](#id06)
-<!--* [Dia 07 - Preloader animado](#id07)  
-* [Dia 08 - Coração batendo](#id08)
+* [Dia 07 - PopUp with Blurred Background](#id07)  
+<!--* [Dia 08 - Coração batendo](#id08)
 * [Dia 09 - Pendulo de Newton](#id09)
 * [Dia 10 - Animação texto alternando](#id10)
 * [Dia 11 - Botão com efeito hover](#id11)
@@ -156,3 +156,21 @@
 * *Animações*
 * *Var*
 * *Elementos Before*
+
+##  Desafio dia 07 - PopUp with Blurred Background <a name="id07"></a>
+![Dia 07](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2007/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2007)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2007/index.html)
+
+##### O que eu aprendi
+
+* *Transições*
+* *Visibility*
+* *Var*
+* *Filter*
+* *User-Select*
+* *Pointer Events*
