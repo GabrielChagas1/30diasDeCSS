@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PopUp with Blurred Background</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="blur">
+    <div class="content">
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eum illum eos voluptate! Voluptates necessitatibus quis esse enim sit iste quibusdam doloribus hic?</h2>
+      <img src="./assets/london.jpg" alt="Paris">
+      <a href="#" onclick="toggle()">Read More</a>
+    </div>
+  </div>
+
+  <div id="popUp">
+    <span class="close" onclick="toggle()">X</span>
+    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quas magni</h2>
+    <p>temporibus officia esse aspernatur in minima officiis quidem dolore, aperiam animi nam error iste. Veniam vero iure porro facere!
+      fficia esse aspernatur in minima officiis quidem dolore, aperiam animi nam error iste. Veniam vero iure porro facere!
+    </p>
+    <a href="#" onclick="toggle()">Close</a>
+  </div>
+
+  <script>
+    function toggle(){
+      var blur = document.getElementById('blur');
+      blur.classList.toggle('active');
+
+
+      var popUp = document.getElementById('popUp');
+      popUp.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
