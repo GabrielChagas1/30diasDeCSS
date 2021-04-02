@@ -3,6 +3,8 @@
 :root{
   --text-white: #fff;
   --text-bg: #222;
+  --color-primary: #ff246f;
+  --color-secondary: #12b5ff;
 
 }
 
@@ -59,10 +61,10 @@ body{
 
 .container .box span i:nth-child(1){
   font-style: initial;
-  color: #ff246f;
+  color: var(--color-primary);
 }
 
 .container .box span i:nth-child(2){
   font-style: initial;
-  color: #12b5ff;
+  color: var(--color-secondary);
 }    
