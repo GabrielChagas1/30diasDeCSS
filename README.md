@@ -32,8 +32,8 @@
 * [Dia 06 - Botão Hover Effects](#id06)
 * [Dia 07 - PopUp with Blurred Background](#id07)  
 * [Dia 08 - 3D Text Animation Effects](#id08)
-<!--* [Dia 09 - Pendulo de Newton](#id09)
-* [Dia 10 - Animação texto alternando](#id10)
+* [Dia 09 - Menu Toggle Icon](#id09)
+<!--* [Dia 10 - Animação texto alternando](#id10)
 * [Dia 11 - Botão com efeito hover](#id11)
 * [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
@@ -192,3 +192,21 @@
 * *Linear-Gradient*
 * *Transfor-Style*
 * *White-Space*
+
+##  Desafio dia 09 - Menu Toggle Icon <a name="id09"></a>
+![Dia 09](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2009/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2009)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2009/index.html)
+
+##### O que eu aprendi
+
+* *Transições*
+* *Before*
+* *After*
+* *Rotate*
+* *TranslateY*
+* *Flexbox*
