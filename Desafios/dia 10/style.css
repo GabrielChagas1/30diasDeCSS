@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --text-black: #1c1c1c;
+  --color-light: #22e4e3;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-primary-gradient: #22ffde;
+  --color-secondary-gradient: #2196f3;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--text-black);
+}
+
+.container {
+  position: relative;
+  width: 500px;
+}
+
+.container .loading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border: 2px solid var(--color-black);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, .5);
+  user-select: none;
+}
+
+.container .loading::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, .1);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.container .loading::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 20px;
+  border-radius: 50%;
+  background: var(--color-light);
+  box-shadow: 0 0 5px var(--color-light),
+    0px 0px 10px var(--color-light),
+    0 0 40px var(--color-light);
+  animation: animateLight 1s linear infinite;
+}
+
+@keyframes animateLight {
+
+  0%,
+  49.99% {
+    background: var(--color-light);
+    box-shadow: 0 0 5px var(--color-light),
+      0px 0px 10px var(--color-light),
+      0 0 40px var(--color-light);
+  }
+  50%,
+  100%{
+    background: #111;
+    box-shadow: none;
+  }
+}
+
+.container .loading .text {
+  position: relative;
+  width: 80px;
+  color: var(--color-white);
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.container .loading .percent {
+  position: relative;
+  width: calc(100% - 120px);
+  height: 20px;
+  background: #151515;
+  border-radius: 20px;
+  margin: 0 10px;
+  box-shadow: inset 0 0 10px var(--color-black);
+  overflow: hidden;
+}
+
+.container .loading .percent .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(45deg, var(--color-primary-gradient), var(--color-secondary-gradient));
+  animation: animate 6s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+    left: 0;
+  }
+
+  100% {
+    width: 100%;
+    left: 100%;
+  }
+}
