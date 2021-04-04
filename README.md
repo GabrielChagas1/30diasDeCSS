@@ -34,8 +34,8 @@
 * [Dia 08 - 3D Text Animation Effects](#id08)
 * [Dia 09 - Menu Toggle Icon](#id09)
 * [Dia 10 - Loading Bar Animation](#id10)
-<!--* [Dia 11 - Botão com efeito hover](#id11)
-* [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
+* [Dia 11 - 3D Product Card](#id11)
+<!--* [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
 * [Dia 13 - Loading com efeito](#id13)
 * [Dia 14 - Fundo de texto animado](#id14)
 * [Dia 15 - Texto flutuante](#id15)
@@ -228,3 +228,22 @@
 * *Animates*
 * *Box Shadow*
 * *Flexbox*
+
+##  Desafio dia 11 - 3D Product Card <a name="id11"></a>
+![Dia 11](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2011/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2011)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2011/index.html)
+
+##### O que eu aprendi
+
+* *Transições*
+* *Before*
+* *After*
+* *ScaleX*
+* *Box Shadow*
+* *Flexbox* 
+* *Tilt JS* 
