@@ -35,8 +35,8 @@
 * [Dia 09 - Menu Toggle Icon](#id09)
 * [Dia 10 - Loading Bar Animation](#id10)
 * [Dia 11 - 3D Product Card](#id11)
-<!--* [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
-* [Dia 13 - Loading com efeito](#id13)
+* [Dia 12 -  Animated Hot Cup](#id12)
+<!--* [Dia 13 - Loading com efeito](#id13)
 * [Dia 14 - Fundo de texto animado](#id14)
 * [Dia 15 - Texto flutuante](#id15)
 * [Dia 16 - Botão com efeito](#id16)
@@ -247,3 +247,24 @@
 * *Box Shadow*
 * *Flexbox* 
 * *Tilt JS* 
+
+##  Desafio dia 12 - Animated Hot Cup <a name="id12"></a>
+![Dia 12](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2012/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2012)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2012/index.html)
+
+##### O que eu aprendi
+
+* *Transições*
+* *Before*
+* *After*
+* *Blur*
+* *ScaleX*
+* *TranslateY*
+* *Rotate*
+* *Box Shadow*
+* *Flexbox*  
