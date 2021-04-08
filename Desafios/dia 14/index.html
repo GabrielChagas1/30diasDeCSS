@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="head">
+    <div class="hair-left"></div>
+    <div class="hair-right"></div>
+
+    <div class="eyes-left"></div>
+    <div class="eyes-right"></div>
+
+    <div class="nose"></div>
+
+    <div class="mouth"></div>
+  </div>
+
+
+  <script src="./js/vanilla-tilt.min.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".head"), {
+      max: 25,
+      speed: 400
+    });
+  </script>
+</body>
+</html>

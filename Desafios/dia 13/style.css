@@ -22,7 +22,7 @@ body{
 }
 
 .ball{
-  position: absolute  ;
+  position: absolute;
   width: 150px;
   height: 150px;
   background: var(--color-primary);
