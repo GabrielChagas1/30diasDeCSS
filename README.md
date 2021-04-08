@@ -37,8 +37,8 @@
 * [Dia 11 - 3D Product Card](#id11)
 * [Dia 12 -  Animated Hot Cup](#id12)
 * [Dia 13 - Tennis Ball](#id13)
-<!--* [Dia 14 - Fundo de texto animado](#id14)
-* [Dia 15 - Texto flutuante](#id15)
+* [Dia 14 - Clown Emoji](#id14)
+<!--* [Dia 15 - Texto flutuante](#id15)
 * [Dia 16 - Botão com efeito](#id16)
 * [Dia 17 - Loader animado](#id17)
 * [Dia 18 - Texto esfumaçado](#id18)
@@ -287,5 +287,23 @@
 * *ScaleX*
 * *TranslateY*
 * *Rotate*
+* *Box Shadow*
+* *Flexbox*  
+
+##  Desafio dia 14 - Clown Emoji <a name="id14"></a>
+![Dia 14](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2014/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2014)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2014/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Before*
+* *After*
+* *Blur*
 * *Box Shadow*
 * *Flexbox*  
