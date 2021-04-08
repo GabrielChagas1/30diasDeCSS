@@ -2,6 +2,7 @@
   --color-primary: #E40D00;
   --color-secondary: #F12B00;
   --color-brown: #896024;
+  --color-eyes: #422B0D;
 }
 
 *{
@@ -104,7 +105,7 @@ body{
   top: 30%;
   left: 25%;
   position: absolute;
-  background: #422B0D;
+  background: var(--color-eyes);
   border-radius: 50%;
   transform: translateZ(20px)
 }
@@ -127,7 +128,7 @@ body{
   top: 30%;
   left: 65%;
   position: absolute;
-  background: #422B0D;
+  background: var(--color-eyes);
   border-radius: 50%;
   transform: translateZ(20px)
 }
@@ -191,7 +192,7 @@ body{
 .nose:hover::after, .nose:hover::before{
   visibility: visible;
   opacity: 1;
-  transition: .2s ;
+  transition: .2s;
 
 }
 
