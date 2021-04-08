@@ -1,0 +1,88 @@
+:root{
+  --text-white: #fff;
+  --color-hover: #e91e63;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* img{
+  max-width: 100%;
+  display: block;
+} */
+
+body{
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+  background: #222;
+}
+
+.container{
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  margin: 40px;
+  grid-auto-flow: dense;
+  gap: 10px ;
+}
+
+.container .box{
+  background: #333;
+  padding: 20px;
+  display: grid;
+  font-size: 1.25rem;
+  place-items: center;
+  text-align: center;
+  color: var(--text-white);
+  transition: .5s;
+}
+
+.container .box:hover{
+  background: var(--color-hover);
+}
+
+.container .box img{
+  width: 100px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.container .box:nth-child(1){
+  grid-column: span 2;
+}
+
+.container .box:nth-child(2), .container .box:nth-child(4){
+  grid-row: span 2;
+}
+
+.container .box:nth-child(5){
+  grid-column: span 3;
+}
+
+/* responsivo */
+@media (max-width: 991px){
+
+  body{
+    background: tomato;
+  }
+
+  .container{
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-template-rows: minmax(auto, auto);
+  }
+
+  .container .box{
+    grid-column: unset !important;
+    grid-row: unset !important ;
+  }
+}
