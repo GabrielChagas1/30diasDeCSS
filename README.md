@@ -307,3 +307,18 @@
 * *Blur*
 * *Box Shadow*
 * *Flexbox*  
+
+##  Desafio dia 15 - Responsive Masonry layouts Using CSS Grid <a name="id15"></a>
+![Dia 15](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2015/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2015)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2015/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Grid CSS*
+* *SVG*
