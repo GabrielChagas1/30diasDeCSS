@@ -36,11 +36,11 @@
 * [Dia 10 - Loading Bar Animation](#id10)
 * [Dia 11 - 3D Product Card](#id11)
 * [Dia 12 -  Animated Hot Cup](#id12)
-* [Dia 13 - Tennis Ball](#id13)
+* [Dia 13 - Tennis Ball](#id13) 
 * [Dia 14 - Clown Emoji](#id14)
 * [Dia 15 - Responsive Masonry layouts Using CSS Grid](#id15)
-<!--* [Dia 16 - Botão com efeito](#id16)
-* [Dia 17 - Loader animado](#id17)
+* [Dia 16 - CSS Custom Radio Button](#id16)
+<!--* [Dia 17 - Loader animado](#id17)
 * [Dia 18 - Texto esfumaçado](#id18)
 * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
 * [Dia 20 - Botão com efeito](#id20)
@@ -322,3 +322,19 @@
 * *Var*
 * *Grid CSS*
 * *SVG*
+
+##  Desafio dia 16 - CSS Custom Radio Button <a name="id16"></a>
+![Dia 16](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2016/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2016)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2016/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *After*
+* *Before*
+* *Box-shadow*
