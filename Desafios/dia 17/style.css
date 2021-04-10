@@ -1,9 +1,81 @@
 :root{
-
-}
+  --color-bg: #5d3800;
+  --color-primary: #ffcd00;
+  --color-mouth: #b57700;
+  --color-white: #fff;
+  --color-eyes: #333;
+}   
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.face{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face::before{
+  content: '';
+  position: absolute;
+  top: 60px;
+  width: 60px;
+  height: 30px;
+  background: var(--color-mouth);
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  transition: .5s;
+}
+
+.face:hover::before{
+  top: 70px;
+  width: 60px;
+  height: 10px;
+  background: var(--color-mouth);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.eyes{
+  position: relative;
+  top: -15px;
+  display: flex;
+}
+
+.eyes .eye{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  display: block;
+  background: var(--color-white);
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.eyes .eye::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  background: var(--color-eyes);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 10px
 }
