@@ -40,8 +40,8 @@
 * [Dia 14 - Clown Emoji](#id14)
 * [Dia 15 - Responsive Masonry layouts Using CSS Grid](#id15)
 * [Dia 16 - CSS Custom Radio Button](#id16)
-<!--* [Dia 17 - Loader animado](#id17)
-* [Dia 18 - Texto esfumaçado](#id18)
+* [Dia 17 - Animated Eyes Follow Mouse Cursor](#id17)
+<!--* [Dia 18 - Texto esfumaçado](#id18)
 * [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
 * [Dia 20 - Botão com efeito](#id20)
 * [Dia 21 - Esferas quicando](#id21)
@@ -338,3 +338,20 @@
 * *After*
 * *Before*
 * *Box-shadow*
+
+##  Desafio dia 17 - Animated Eyes Follow Mouse Cursor <a name="id17"></a>
+![Dia 17](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2017/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2017)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2017/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *After*
+* *Before*
+* *Animation*
+* *Javascript*
