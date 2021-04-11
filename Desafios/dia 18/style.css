@@ -1,5 +1,7 @@
 :root{
-
+  --color-bg: #ececec;
+  --color-input-click: #15e38a;
+  --color-shadow: #7a7a7a;
 }
 
 *{
@@ -10,4 +12,45 @@
 
 a{
   text-decoration: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+input[type="checkbox"]{
+  height: 200px;
+  width: 200px;
+  -webkit-appearance: none;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, .5),
+              10px 10px 15px rgba(70, 70, 70, .12);
+  border-radius: 50%;
+  outline: none;
+  border: 8px solid var(--color-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::after{
+  font-family: FontAwesome;
+  content: '\f011';
+  color: var(--color-shadow);
+  font-size: 4.375rem;
+}
+
+input[type="checkbox"]:checked{
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, .5),
+              10px 10px 15px rgba(70, 70, 70, .12),
+              inset -10px -10px 15px rgba(255, 255, 255, .5),
+              inset 10px 10px 15px rgba(70, 70, 70, .12)  ;
+}
+
+input[type="checkbox"]:checked:after{
+  color: var(--color-input-click);
 }
