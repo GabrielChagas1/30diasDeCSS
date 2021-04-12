@@ -42,8 +42,8 @@
 * [Dia 16 - CSS Custom Radio Button](#id16)
 * [Dia 17 - Animated Eyes Follow Mouse Cursor](#id17)
 * [Dia 18 - Neumorphism UI Button](#id18)
-<!--* [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
-* [Dia 20 - Botão com efeito](#id20)
+* [Dia 19 - Dark and Light Mode](#id19)
+<!--* [Dia 20 - Botão com efeito](#id20)
 * [Dia 21 - Esferas quicando](#id21)
 * [Dia 22 - Icones com efeito](#id22)
 * [Dia 23 - Botão com efeito hover](#id23)
@@ -371,3 +371,20 @@
 * *After*
 * *Before*
 * *Checked*
+
+##  Desafio dia 19 - Dark and Light Mode <a name="id19"></a>
+![Dia 19](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2019/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2019)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2019/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Box Shadow*
+
+
