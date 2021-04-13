@@ -43,8 +43,8 @@
 * [Dia 17 - Animated Eyes Follow Mouse Cursor](#id17)
 * [Dia 18 - Neumorphism UI Button](#id18)
 * [Dia 19 - Dark and Light Mode](#id19)
-<!--* [Dia 20 - Botão com efeito](#id20)
-* [Dia 21 - Esferas quicando](#id21)
+* [Dia 20 - CSS 3D Foldable Card Hover Effects](#id20)
+<!--* [Dia 21 - Esferas quicando](#id21)
 * [Dia 22 - Icones com efeito](#id22)
 * [Dia 23 - Botão com efeito hover](#id23)
 * [Dia 24 - Preloader animado](#id24)
@@ -387,4 +387,19 @@
 * *Flexbox*
 * *Box Shadow*
 
+##  Desafio dia 20 - CSS 3D Foldable Card Hover Effects <a name="id20"></a>
+![Dia 20](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2020/assets/gif.gif)
 
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2020)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2020/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Box Shadow*
+* *Transition*
+* *Translate*
