@@ -44,8 +44,8 @@
 * [Dia 18 - Neumorphism UI Button](#id18)
 * [Dia 19 - Dark and Light Mode](#id19)
 * [Dia 20 - CSS 3D Foldable Card Hover Effects](#id20)
-<!--* [Dia 21 - Esferas quicando](#id21)
-* [Dia 22 - Icones com efeito](#id22)
+* [Dia 21 - CSS Creative Background Hover Effect](#id21)
+<!--* [Dia 22 - Icones com efeito](#id22)
 * [Dia 23 - Botão com efeito hover](#id23)
 * [Dia 24 - Preloader animado](#id24)
 * [Dia 25 - Checkbox animado](#id25)
@@ -403,3 +403,22 @@
 * *Box Shadow*
 * *Transition*
 * *Translate*
+
+##  Desafio dia 21 - CSS 3D Foldable Card Hover Effects <a name="id21"></a>
+![Dia 21](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2021/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2021)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2021/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Box Shadow*
+* *Transition*
+* *Filter*
+* *Hue-Rotate*
+
