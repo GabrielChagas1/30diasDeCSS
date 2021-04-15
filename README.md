@@ -45,8 +45,8 @@
 * [Dia 19 - Dark and Light Mode](#id19)
 * [Dia 20 - CSS 3D Foldable Card Hover Effects](#id20)
 * [Dia 21 - CSS Creative Background Hover Effect](#id21)
-<!--* [Dia 22 - Icones com efeito](#id22)
-* [Dia 23 - Botão com efeito hover](#id23)
+* [Dia 22 - CSS Neumorphism Gradient Loader Animation Effects](#id22)
+<!--* [Dia 23 - Botão com efeito hover](#id23)
 * [Dia 24 - Preloader animado](#id24)
 * [Dia 25 - Checkbox animado](#id25)
 * [Dia 26 - Loading com efeito](#id26)
@@ -422,3 +422,18 @@
 * *Filter*
 * *Hue-Rotate*
 
+##  Desafio dia 22 - CSS Neumorphism Gradient Loader Animation Effects <a name="id22"></a>
+![Dia 22](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2022/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2022)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2022/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Box Shadow*
+* *Linear-Gradiant*
