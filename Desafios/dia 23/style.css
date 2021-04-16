@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
 
 :root{
-
+  --color-primary: #191970;
+  --text-white: #fff;
 }
 
 *{
@@ -29,12 +30,12 @@ section .box{
 }
 
 section .box.box2{
-  background: #191970;
+  background: var(--color-primary);
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 }
 
 section .box h2{
-  color: #191970;
+  color: var(--color-primary);
   font-size: 6vw;
   text-align: center;
   display: flex;
@@ -52,10 +53,10 @@ section .box h2{
 }
 
 section .box.box2 h2{
-  color: #fff;
+  color: var(--text-white);
 }
 
 section .box h2 span:nth-child(2){
   line-height: 1em;
-  font-size: 2em;
+  font-size: 1em;
 }
