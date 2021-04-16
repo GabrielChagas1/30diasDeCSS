@@ -437,3 +437,18 @@
 * *Flexbox*
 * *Box Shadow*
 * *Linear-Gradiant*
+
+##  Desafio dia 23 - CSS Text Animation Effects using Clip-path <a name="id23"></a>
+![Dia 23](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2023/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2023)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2023/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Animation*
