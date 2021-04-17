@@ -1,3 +1,12 @@
+:root{
+  --text-white: #fff;
+  --color-bg: #19172e; 
+  --color-gradient-yellow: #f9d524;
+  --color-gradient-red: #ff2c24;
+  --color-gradient-blue: #01d6ff;
+  --color-gradient-blue-dark: #0f24f9;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -23,7 +32,7 @@ section::before{
   width: 300px;
   height: 300px;
   border-radius: 10px;
-  background: linear-gradient(#f9d924, #ff2c24);
+  background: linear-gradient(var(--color-gradient-yellow), var(--color-gradient-red));
   animation: animate 5s ease-in-out infinite;
 }
 
@@ -35,7 +44,7 @@ section::after{
   width: 250px;
   height: 250px;
   border-radius: 10px;
-  background: linear-gradient(#01d6ff, #0f24f9);
+  background: linear-gradient(var(--color-gradient-blue), var(--color-gradient-blue-dark));
   animation: animate 5s ease-in-out infinite;
   animation-delay: 2.5s;
 }
@@ -71,7 +80,7 @@ section::after{
 
 .clock .container h2{
   font-size: 5rem;
-  color: #fff;
+  color: var(--text-white);
 }
 
 .clock .container h2:nth-child(odd){
@@ -84,13 +93,13 @@ section::after{
 }
 
 .clock .container h2#seconds{
-  color: #f9d524;
+  color: var(--color-gradient-yellow);
 }
 
 #ampm{
   position: relative;
   margin: 0 0 0 15px;
   font-size: 2rem;
-  color: #fff;
+  color: var(--text-white);
   font-weight: 700;
 }
