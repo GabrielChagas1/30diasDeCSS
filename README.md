@@ -452,3 +452,19 @@
 * *Var*
 * *Flexbox*
 * *Animation*
+
+##  Desafio dia 24 - Glassmorphism Digital Clock UI Design <a name="id24"></a>
+![Dia 24](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2024/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2024)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2024/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Animation*
+* *Glassmorphism*
