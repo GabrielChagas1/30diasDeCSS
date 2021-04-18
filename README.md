@@ -48,8 +48,8 @@
 * [Dia 22 - CSS Neumorphism Gradient Loader Animation Effects](#id22)
 * [Dia 23 - CSS Text Animation Effects using Clip-path](#id23)
 * [Dia 24 - Glassmorphism Digital Clock UI Design](#id24)
-<!--* [Dia 25 - Checkbox animado](#id25)
-* [Dia 26 - Loading com efeito](#id26)
+* [Dia 25 - CSS Neumorphism Working Analog Clock UI Design](#id25)
+<!--* [Dia 26 - Loading com efeito](#id26)
 * [Dia 27 - Efeito pulsar](#id27)
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
@@ -468,3 +468,21 @@
 * *Flexbox*
 * *Animation*
 * *Glassmorphism*
+
+##  Desafio dia 25 - CSS Neumorphism Working Analog Clock UI Design <a name="id25"></a>
+![Dia 25](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2025/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2025)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2025/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Rotate*
+* *Animation*
+* *Neumorphism*
+* *Javascrit*
