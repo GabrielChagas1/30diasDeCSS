@@ -49,8 +49,8 @@
 * [Dia 23 - CSS Text Animation Effects using Clip-path](#id23)
 * [Dia 24 - Glassmorphism Digital Clock UI Design](#id24)
 * [Dia 25 - CSS Neumorphism Working Analog Clock UI Design](#id25)
-<!--* [Dia 26 - Loading com efeito](#id26)
-* [Dia 27 - Efeito pulsar](#id27)
+* [Dia 26 - Neon Light Button Animation Effects on Hover](#id26)
+<!--* [Dia 27 - Efeito pulsar](#id27)
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Fogos de artificio](#id30) -->
@@ -486,3 +486,19 @@
 * *Animation*
 * *Neumorphism*
 * *Javascrit*
+
+##  Desafio dia 26 - Neon Light Button Animation Effects on Hover <a name="id26"></a>
+![Dia 26](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2026/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2026)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2026/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Rotate*
+* *Neon css*
