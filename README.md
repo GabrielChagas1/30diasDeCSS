@@ -50,8 +50,8 @@
 * [Dia 24 - Glassmorphism Digital Clock UI Design](#id24)
 * [Dia 25 - CSS Neumorphism Working Analog Clock UI Design](#id25)
 * [Dia 26 - Neon Light Button Animation Effects on Hover](#id26)
-<!--* [Dia 27 - Efeito pulsar](#id27)
-* [Dia 28 - Cor do background mudando](#id28)
+* [Dia 27 - Glassmorphism | Javascript Working Analog Clock UI Design](#id27)
+<!--* [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Fogos de artificio](#id30) -->
 
@@ -502,3 +502,22 @@
 * *Flexbox*
 * *Rotate*
 * *Neon css*
+
+##  Desafio dia 27 - Glassmorphism | Javascript Working Analog Clock UI Design <a name="id27"></a>
+![Dia 27](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2027/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2027)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2027/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Rotate*
+* *Animate*
+* *Glassmorphism*
+* *Javascript*
+
