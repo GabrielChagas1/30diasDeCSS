@@ -521,3 +521,19 @@
 * *Glassmorphism*
 * *Javascript*
 
+##  Desafio dia 28 - CSS Glassmorphism Card Hover Effects <a name="id28"></a>
+![Dia 28](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2028/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2028)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2028/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Rotate*
+* *Animate*
+* *Glassmorphism*
