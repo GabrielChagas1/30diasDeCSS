@@ -51,8 +51,8 @@
 * [Dia 25 - CSS Neumorphism Working Analog Clock UI Design](#id25)
 * [Dia 26 - Neon Light Button Animation Effects on Hover](#id26)
 * [Dia 27 - Glassmorphism | Javascript Working Analog Clock UI Design](#id27)
-<!--* [Dia 28 - Cor do background mudando](#id28)
-* [Dia 29 - Menu responsivo com Media Queries](#id29)
+* [Dia 28 - CSS Glassmorphism Card Hover Effects](#id28)
+<!--* [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Fogos de artificio](#id30) -->
 
 
