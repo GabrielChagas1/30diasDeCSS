@@ -538,14 +538,14 @@
 * *Animate*
 * *Glassmorphism*
 
-##  Desafio dia 29 - Creative CSS Gradient Border Cards <a name="id29'"></a>
-![Dia 29'](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2029'/assets/gif.gif)
+##  Desafio dia 29 - Creative CSS Gradient Border Cards <a name="id29"></a>
+![Dia 29](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2029/assets/gif.gif)
 
 ## :computer: Projeto Online
 
-[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2029')
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2029)
 
-[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2029'/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2029/index.html)
 
 ##### O que eu aprendi
 
