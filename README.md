@@ -52,8 +52,8 @@
 * [Dia 26 - Neon Light Button Animation Effects on Hover](#id26)
 * [Dia 27 - Glassmorphism | Javascript Working Analog Clock UI Design](#id27)
 * [Dia 28 - CSS Glassmorphism Card Hover Effects](#id28)
-<!--* [Dia 29 - Menu responsivo com Media Queries](#id29)
-* [Dia 30 - Fogos de artificio](#id30) -->
+* [Dia 29 - Creative CSS Gradient Border Cards](#id29)
+<!--* [Dia 30 - Fogos de artificio](#id30) -->
 
 
 ##  Desafio dia 01 - Criando layout dos cartões Banco Inter <a name="id01"></a>
@@ -537,3 +537,20 @@
 * *Rotate*
 * *Animate*
 * *Glassmorphism*
+
+##  Desafio dia 29' - Creative CSS Gradient Border Cards <a name="id29'"></a>
+![Dia 29'](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2029'/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2029')
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2029'/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Rotate*
+* *Blur*
+* *TranslateY*
