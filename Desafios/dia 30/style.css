@@ -2,6 +2,7 @@
 
 :root {
   --color-bg: #161623;
+  --color-white: #fff;
 }
 
 *{
@@ -75,29 +76,29 @@ section::after{
 }
 
 #dycalendar table tr:nth-child(1) td{
-  background: #fff;
+  background: var(--color-white);
   color: #111;
   border-radius: 4px;
   font-weight: 600;
 }
 
 #dycalendar table td{
-  color: #fff;
+  color: var(--color-white);
   cursor: pointer;
   border-radius: 4px;
 }
 
 #dycalendar table td:hover{
-  background: #fff;
+  background: var(--color-white);
   color: #111 !important;
 }
 
 .dycalendar-today-date, .dycalendar-month-container  .dycalendar-target-date{
-  background: #fff;
+  background: var(--color-white);
   color: #111 !important;
 }
 .dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn{
-  background: #fff;
+  background: var(--color-white);
   color: #111;
   width: 44px;
   height: 38px;
@@ -110,7 +111,7 @@ section::after{
 }
 
 .dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn{
-  background: #fff;
+  background: var(--color-white);
   color: #111;
   width: 44px;
   height: 38px;
@@ -123,7 +124,7 @@ section::after{
 }
 
 .dycalendar-month-container .dycalendar-span-month-year{
-  color: #fff;
+  color: var(--color-white);
   font-size: 1.5rem;
   font-weight: 600;
 }
