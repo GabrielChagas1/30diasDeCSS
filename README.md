@@ -53,7 +53,7 @@
 * [Dia 27 - Glassmorphism | Javascript Working Analog Clock UI Design](#id27)
 * [Dia 28 - CSS Glassmorphism Card Hover Effects](#id28)
 * [Dia 29 - Creative CSS Gradient Border Cards](#id29)
-<!--* [Dia 30 - Fogos de artificio](#id30) -->
+* [Dia 30 - CSS Glassmorphism Calendar UI Design](#id30)
 
 
 ##  Desafio dia 01 - Criando layout dos cartões Banco Inter <a name="id01"></a>
@@ -554,3 +554,20 @@
 * *Rotate*
 * *Blur*
 * *TranslateY*
+
+##  Desafio dia 30 - CSS Glassmorphism Calendar UI Design <a name="id30"></a>
+![Dia 30](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2030/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2030)
+
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2029/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Rotate*
+* *Blur*
+* *Glassmorphism*
