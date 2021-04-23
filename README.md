@@ -562,7 +562,7 @@
 
 [Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2030)
 
-[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2029/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2030/index.html)
 
 ##### O que eu aprendi
 
