@@ -54,6 +54,9 @@
 * [Dia 28 - CSS Glassmorphism Card Hover Effects](#id28)
 * [Dia 29 - Creative CSS Gradient Border Cards](#id29)
 * [Dia 30 - CSS Glassmorphism Calendar UI Design](#id30)
+* [Dia 31 - CSS Glassmorphism Product Card Slider UI Design](#id31)
+
+
 
 
 ##  Desafio dia 01 - Criando layout dos cartões Banco Inter <a name="id01"></a>
@@ -570,4 +573,21 @@
 * *Flexbox*
 * *Rotate*
 * *Blur*
+* *Glassmorphism*
+
+##  Desafio dia 31 - CSS Glassmorphism Product Card Slider UI Design< <a name="id31"></a>
+![Dia 31](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2031/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2031)
+
+[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2031/index.html)
+
+##### O que eu aprendi
+
+* *Var*
+* *Flexbox*
+* *Rotate*
+* *Javascript*
 * *Glassmorphism*
