@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +24,23 @@
     </div>
   </section>
 
-  
+
+  <script>
+    let percentage = document.querySelector('.percentage');
+    let percent = document.querySelector('.percent');
+
+    navigator.getBattery().then((battery) =>{
+      const batteryPercetage = battery.level * 100 + '%';
+      percentage.style.width = batteryPercetage;
+      percent.innerHTML =  batteryPercetage;
+    });
+
+    let sec = document.querySelector('.sec');
+    let toggle = document.querySelector('.toggle');
+    toggle.onclick = () =>{
+      sec.classList.toggle('dark');
+    }
+
+  </script>
 </body>
 </html>
