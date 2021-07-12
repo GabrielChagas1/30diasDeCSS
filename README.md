@@ -56,6 +56,7 @@
 * [Dia 30 - CSS Glassmorphism Calendar UI Design](#id30)
 * [Dia 31 - CSS Glassmorphism Product Card Slider UI Design](#id31)
 * [Dia 32 - Glassmorphism Battery Level](#id32)
+* [Dia 33 - Live Character Count](#id32)
 
 
 
@@ -593,7 +594,7 @@
 * *Javascript*
 * *Glassmorphism*
 
-##  Desafio dia 32 - Glassmorphism Battery Level< <a name="id32"></a>
+##  Desafio dia 32 - Glassmorphism Battery Level <a name="id32"></a>
 ![Dia 32](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2032/assets/gif.gif)
 
 ## :computer: Projeto Online
@@ -610,3 +611,19 @@
 * *Sass*
 * *Javascript*
 * *Glassmorphism*
+
+##  Desafio dia 33 - Live Character Count <a name="id33"></a>
+![Dia 32](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2033/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2033)
+
+[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2033/index.html)
+
+##### O que eu aprendi
+
+* *CSS*
+* *Flexbox*
+* *Sass*
+* *Javascript*
