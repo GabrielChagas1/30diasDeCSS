@@ -7,3 +7,33 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body{
+  background: #0a192f;
+}
+
+.container{
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+textarea{
+  width: 100%;
+  resize: none;
+  background: #172a46;
+  border: none;
+  font-size: 1rem;
+  line-height: 30px;
+  padding: 15px;
+  outline: none;
+  border-radius: 3px;
+  color: #a8b2d1;
+}
+
+p{
+  color: #e5e5e5;
+  text-align: right;
+  margin-top: 20px;
+}
