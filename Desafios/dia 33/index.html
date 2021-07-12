@@ -14,8 +14,15 @@
     <p id="count-result">Total characters: 0</p>
   </div>
 
-
   <script>
+
+    let myText = document.getElementById("my-text");
+
+    myText.addEventListener("input", () =>{
+      let count = (myText.value).length;
+      document.getElementById("count-result").textContent = `Total characters: ${count}`;
+    })
+
   </script>
 </body>
 </html>
