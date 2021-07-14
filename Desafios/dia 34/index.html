@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Hex Code Generator</title>
+ <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="color-random"></div>
+    <input class="color-value" value="#7091a2"></input>
+    <div class="buttons">
+      <div class="generate">Generate</div>
+      <div class="copy">Copy</div>
+    </div>
+  </div>
+
+  <script>
+
+    let generate = document.querySelector('.generate');
+    let colorRandom = document.querySelector('.color-random');
+    let colorValue = document.querySelector('.color-value');
+    let copy = document.querySelector('.copy');
+
+
+    generate.addEventListener("click", () => {
+      // gerando uma nova cor
+      const newColor = Math.floor(Math.random() * 16777215).toString(16);
+
+      // atribuindo o valor da cor nova ao html
+      colorValue.setAttribute('value', `#${newColor}`);
+
+      // trocando a cor de fundo da classe `color-random`
+      colorRandom.style.backgroundColor = `#${newColor}`;
+
+    });
+
+    copy.addEventListener("click", () =>{
+      // selecionando o input que está a cor
+      colorValue.select();
+
+      // copiando o conteúdo de dentro do input
+      document.execCommand("copy");
+    });
+
+
+
+
+  </script>
+</body>
+</html>
