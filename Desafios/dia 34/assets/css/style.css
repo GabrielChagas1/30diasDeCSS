@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root{
+  --white: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,16 +38,16 @@ body {
   border-radius: 50%;
   border: 5px solid #1f1f29;
   box-shadow: 10px 5px 5px black;
-  box-shadow: 0 0 0 5px #fff;
+  box-shadow: 0 0 0 5px var(--white);
   animation: zoominoutsinglefeatured 2s;
 }
 
 .color-value {
-  border: 1px dashed #fff;
+  border: 1px dashed var(--white);
   width: 90%;
   padding: 10px 0;
   text-align: center;
-  color: #fff;
+  color: var(--white);
   border-radius: 4px;
   margin: 30px 0;
   background: transparent;
