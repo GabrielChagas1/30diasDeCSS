@@ -2,6 +2,9 @@
 
 :root{
   --white: #fff;
+  --green: #06b575;
+  --black-background: #15151d;
+  --black-background-secondary: #1f1f29;
 }
 
 * {
@@ -12,7 +15,7 @@
 }
 
 body {
-  background: #15151d;
+  background: var(--black-background);
 }
 
 .container {
@@ -21,7 +24,7 @@ body {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  background: #1f1f29;
+  background: var(--black-background-secondary);
   padding: 50px 0;
   display: flex;
   flex-direction: column;
@@ -36,7 +39,7 @@ body {
   height: 150px;
   background: #7091a2;
   border-radius: 50%;
-  border: 5px solid #1f1f29;
+  border: 5px solid var(--black-background-secondary);
   box-shadow: 10px 5px 5px black;
   box-shadow: 0 0 0 5px var(--white);
   animation: zoominoutsinglefeatured 2s;
@@ -61,8 +64,8 @@ body {
 }
 
 .generate {
-  background: #06b575;
-  color: #15151d;
+  background: var(--green);
+  color: var(--black-background);
   width: 100%;
   padding: 5px 0;
   text-align: center;
@@ -71,8 +74,8 @@ body {
 }
 
 .copy {
-  border: 1px solid #06b575;
-  color: #06b575;
+  border: 1px solid var(--green);
+  color: var(--green);
   background: transparent;
   margin: 20px 0 0 0;
   text-align: center;
