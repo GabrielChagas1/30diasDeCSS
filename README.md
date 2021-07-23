@@ -613,7 +613,7 @@
 * *Glassmorphism*
 
 ##  Desafio dia 33 - Live Character Count <a name="id33"></a>
-![Dia 32](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2033/assets/gif.gif)
+![Dia 33](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2033/assets/gif.gif)
 
 ## :computer: Projeto Online
 
@@ -627,3 +627,19 @@
 * *Flexbox*
 * *Sass*
 * *Javascript*
+
+##  Desafio dia 34 - Random Hex Code Generator <a name="id34"></a>
+![Dia 34](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2034/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2034)
+
+[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2033/index.html)
+
+##### O que eu aprendi
+
+* *CSS*
+* *Flexbox*
+* *Sass*
+
