@@ -641,5 +641,6 @@
 
 * *CSS*
 * *Flexbox*
+* *Var*
 * *Sass*
 
