@@ -17,11 +17,14 @@ const typeColor = {
   water: "#0190FF",
 };
 
-
+// url para a api pokeapi
 const url = "https://pokeapi.co/api/v2/pokemon/";
+
+// recuperando os elementos de card e btn
 const card = document.getElementById("card");
 const btn = document.getElementById("btn");
 
+// gerando um número aleatório para recuperar um pokemon
 let getPokeData = () => {
   let id = Math.floor(Math.random() * 150) + 1;
 
@@ -33,13 +36,15 @@ let getPokeData = () => {
 
 }
 
+// adicionando eventos ao botão de generate e reload da tela
 btn.addEventListener("click", getPokeData);
 window.addEventListener("load", getPokeData);
 
 
-
+// método para criar um card novo com o pokemon gerado
 let generateCard = (data) => {
-  console.log(data)
+
+  // recuperando as informações para preencher o card
   const hp = data.stats[0].base_stat;
   const imgSrc = data.sprites.other.dream_world.front_default;
   const pokeName = data.name[0].toUpperCase() + data.name.slice(1);
@@ -47,9 +52,10 @@ let generateCard = (data) => {
   const statDefense = data.stats[2].base_stat;
   const statSpeed = data.stats[5].base_stat;
 
-
+  // recuperando a cor base do card atráves do tipo de poder do pokemon
   const themeColor = typeColor[data.types[0].type.name];
 
+  // criando o html do card
   card.innerHTML = `
         <p class="hp">
           <span>HP</span>
@@ -73,10 +79,14 @@ let generateCard = (data) => {
           </div>
         </div>
   `;
+  // chamando o método para inserir os poderes no card
   appendTypes(data.types);
+
+  // chamando o método para setar a cor base no card
   styleCard(themeColor);
 };
 
+// método para percorrer a lista de poderes e preencher no card
 let appendTypes = (types) => {
 
   types.forEach((item) => {
@@ -87,6 +97,7 @@ let appendTypes = (types) => {
 
 };
 
+// método para setar a cor base no card
 let styleCard = (color) => {
   card.style.background = `radial-gradient(
     circle at 50% 0%, ${color} 36%, #fff 36%
