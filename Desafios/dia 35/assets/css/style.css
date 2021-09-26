@@ -6,3 +6,117 @@
           box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  background: #eff3ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin: 20px 0 10px 0;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.container {
+  width: 300px;
+}
+
+#card {
+  background: radial-gradient(circle at 50% 0%, orange 36%, #fff 36%);
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+#card img {
+  display: block;
+  width: 150px;
+  max-height: 150px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.hp {
+  width: 80px;
+  background: #fff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 30px;
+  margin-left: auto;
+  font-weight: 400;
+}
+
+.hp span {
+  font-size: 12px;
+  letter-spacing: .4px;
+  font-weight: 600;
+}
+
+.poke-name {
+  text-align: center;
+  font-weight: 600;
+}
+
+.types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+
+.types span {
+  font-size: 12px;
+  letter-spacing: .4px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.stats p {
+  color: #404060;
+}
+
+#btn {
+  display: block;
+  padding: 15px 60px;
+  font-size: 18px;
+  background: #101010;
+  color: #fff;
+  position: relative;
+  margin: 30px auto;
+  border: none;
+  border-radius: 4px;
+}
