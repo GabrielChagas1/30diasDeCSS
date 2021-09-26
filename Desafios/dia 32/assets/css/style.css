@@ -2,15 +2,22 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
 section {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 100vh;
 }
 
@@ -23,12 +30,15 @@ section::before {
   position: absolute;
   width: 240px;
   height: 240px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f3f5f5), to(#9c27b0));
   background: linear-gradient(#f3f5f5, #9c27b0);
   border-radius: 50%;
-  transform: translate(-150px, -100px);
+  -webkit-transform: translate(-150px, -100px);
+          transform: translate(-150px, -100px);
 }
 
 section.dark::before {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffc107), to(#e91e63));
   background: linear-gradient(#ffc107, #e91e63);
 }
 
@@ -37,12 +47,15 @@ section::after {
   position: absolute;
   width: 240px;
   height: 240px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff2871), to(rgba(255, 40, 113, 0.2)));
   background: linear-gradient(#ff2871, rgba(255, 40, 113, 0.2));
   border-radius: 50%;
-  transform: translate(150px, 150px);
+  -webkit-transform: translate(150px, 150px);
+          transform: translate(150px, 150px);
 }
 
 section.dark::after {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2196f3), to(#31ff38));
   background: linear-gradient(#2196f3, #31ff38);
 }
 
@@ -52,22 +65,39 @@ section.dark::after {
   height: 300px;
   background: rgba(255, 255, 255, 0.1);
   z-index: 1;
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .box h3 {
@@ -101,7 +131,8 @@ section.dark .batteryShape {
   background: #333;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   right: -12px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -137,10 +168,12 @@ section.dark .batteryShape::before {
   left: 0;
   height: 100%;
   width: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(#9c28af), to(#fd2c72));
   background: linear-gradient(90deg, #9c28af, #fd2c72);
 }
 
 section.dark .percentage {
+  background: -webkit-gradient(linear, left top, right top, from(#ffeb3b), to(#27ff00));
   background: linear-gradient(90deg, #ffeb3b, #27ff00);
 }
 
@@ -164,9 +197,15 @@ section.dark .percent {
   right: 20px;
   cursor: pointer;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .dark .toggle {
