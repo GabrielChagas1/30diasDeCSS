@@ -56,7 +56,9 @@
 * [Dia 30 - CSS Glassmorphism Calendar UI Design](#id30)
 * [Dia 31 - CSS Glassmorphism Product Card Slider UI Design](#id31)
 * [Dia 32 - Glassmorphism Battery Level](#id32)
-* [Dia 33 - Live Character Count](#id32)
+* [Dia 33 - Live Character Count](#id33)
+* [Dia 34 - Random Hex Code Generator](#id34)
+* [Dia 35 - Pokemon Card Generator Javascript](#id35)
 
 
 
@@ -635,7 +637,25 @@
 
 [Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2034)
 
-[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2033/index.html)
+[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2034/index.html)
+
+##### O que eu aprendi
+
+* *CSS*
+* *Flexbox*
+* *Var*
+* *Sass*
+* *Javascript*
+
+
+##  Desafio dia 35 - Pokemon Card Generator Javascript <a name="id35"></a>
+![Dia 35](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2035/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2035)
+
+[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2035/index.html)
 
 ##### O que eu aprendi
 
