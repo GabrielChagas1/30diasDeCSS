@@ -580,11 +580,11 @@
 * *Glassmorphism*
 
 ##  Desafio dia 31 - CSS Glassmorphism Product Card Slider UI Design< <a name="id31"></a>
-![Dia 31](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2031/assets/gif.gif)
+![Dia 31](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2031/assets/gif.gif)
 
 ## :computer: Projeto Online
 
-[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2031)
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2031)
 
 [Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2031/index.html)
 
@@ -597,11 +597,11 @@
 * *Glassmorphism*
 
 ##  Desafio dia 32 - Glassmorphism Battery Level <a name="id32"></a>
-![Dia 32](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2032/assets/gif.gif)
+![Dia 32](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2032/assets/gif.gif)
 
 ## :computer: Projeto Online
 
-[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2032)
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2032)
 
 [Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2032/index.html)
 
@@ -615,11 +615,11 @@
 * *Glassmorphism*
 
 ##  Desafio dia 33 - Live Character Count <a name="id33"></a>
-![Dia 33](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2033/assets/gif.gif)
+![Dia 33](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2033/assets/gif.gif)
 
 ## :computer: Projeto Online
 
-[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2033)
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2033)
 
 [Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2033/index.html)
 
@@ -631,11 +631,11 @@
 * *Javascript*
 
 ##  Desafio dia 34 - Random Hex Code Generator <a name="id34"></a>
-![Dia 34](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2034/assets/gif.gif)
+![Dia 34](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2034/assets/gif.gif)
 
 ## :computer: Projeto Online
 
-[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2034)
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2034)
 
 [Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2034/index.html)
 
@@ -649,11 +649,11 @@
 
 
 ##  Desafio dia 35 - Pokemon Card Generator Javascript <a name="id35"></a>
-![Dia 35](https://raw.githubusercontent.com/GabrielChagas1/31diasDeCSS/master/Desafios/dia%2035/assets/gif.gif)
+![Dia 35](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2035/assets/gif.gif)
 
 ## :computer: Projeto Online
 
-[Código](https://github.com/GabrielChagas1/31diasDeCSS/tree/master/Desafios/dia%2035)
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2035)
 
 [Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2035/index.html)
 
