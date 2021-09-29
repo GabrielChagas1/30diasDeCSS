@@ -587,7 +587,7 @@
 
 [Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2031)
 
-[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2031/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2031/index.html)
 
 ##### O que eu aprendi
 
@@ -604,7 +604,7 @@
 
 [Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2032)
 
-[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2032/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2032/index.html)
 
 ##### O que eu aprendi
 
@@ -622,7 +622,7 @@
 
 [Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2033)
 
-[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2033/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2033/index.html)
 
 ##### O que eu aprendi
 
@@ -638,7 +638,7 @@
 
 [Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2034)
 
-[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2034/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2034/index.html)
 
 ##### O que eu aprendi
 
@@ -656,7 +656,7 @@
 
 [Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2035)
 
-[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2035/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2035/index.html)
 
 ##### O que eu aprendi
 
@@ -675,7 +675,7 @@
 
 [Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2036)
 
-[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2036/index.html)
+[Servidor](https://30dias-de-css-beta.vercel.app/Desafios/dia%2036/index.html)
 
 ##### O que eu aprendi
 
