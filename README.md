@@ -59,6 +59,7 @@
 * [Dia 33 - Live Character Count](#id33)
 * [Dia 34 - Random Hex Code Generator](#id34)
 * [Dia 35 - Pokemon Card Generator Javascript](#id35)
+* [Dia 36 - Dictionary App](#id36)
 
 
 
@@ -665,3 +666,21 @@
 * *Sass*
 * *Javascript*
 
+
+
+##  Desafio dia 36 - Pokemon Card Generator Javascript <a name="id36"></a>
+![Dia 36](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2036/assets/gif.gif)
+
+## :computer: Projeto Online
+
+[Código](https://github.com/GabrielChagas1/30diasDeCSS/tree/master/Desafios/dia%2036)
+
+[Servidor](https://31dias-de-css-beta.vercel.app/Desafios/dia%2036/index.html)
+
+##### O que eu aprendi
+
+* *CSS*
+* *Flexbox*
+* *Var*
+* *Sass*
+* *Javascript*
