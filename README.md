@@ -668,7 +668,7 @@
 
 
 
-##  Desafio dia 36 - Pokemon Card Generator Javascript <a name="id36"></a>
+##  Desafio dia 36 - Dictionary App <a name="id36"></a>
 ![Dia 36](https://raw.githubusercontent.com/GabrielChagas1/30diasDeCSS/master/Desafios/dia%2036/assets/gif.gif)
 
 ## :computer: Projeto Online
