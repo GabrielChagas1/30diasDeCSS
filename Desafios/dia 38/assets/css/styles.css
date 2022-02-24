@@ -161,7 +161,21 @@ img{
 }
 
 /* Show modal */
+.show-modal{
+  visibility: visible;
+  opacity: 1;
+}
 
+.show-modal .modal__content{
+  /*=== Effect 1 ===*/
+  /* transform: translateY(0); */
+
+  /*=== Effect 2 ===*/
+  transform: scale(1) translateY(0);
+
+  /*=== Effect 3 ===*/
+  /* transform: rotateX(0) scale(1) translateY(0); */
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
