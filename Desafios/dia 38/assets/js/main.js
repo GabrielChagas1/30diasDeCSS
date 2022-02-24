@@ -13,3 +13,12 @@ const showModal = (openButton, modalContent) => {
 showModal('open-modal', 'modal-container');
 
 /*=============== CLOSE MODAL ===============*/
+const closeBtn = document.querySelectorAll('.close-modal')
+console.log(closeBtn)
+
+function closeModal(){
+    const modalContainer = document.getElementById('modal-container')
+    modalContainer.classList.remove('show-modal')
+}
+
+closeBtn.forEach(c => c.addEventListener('click', closeModal))
